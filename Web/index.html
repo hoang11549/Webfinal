@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Website Header with Bootstrap Carousel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/19b91c275f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="./grid.css">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- slide -->
+  <link rel="stylesheet" href="./LinkNetwork/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="./LinkNetwork/owlcarousel/assets/owl.theme.default.min.css">
+ 
+  <!-- scrip for card main -->
+<link rel='stylesheet' href='https://codepen.io/andytran/pen/vLmRVp.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <script>try{Typekit.load();}catch(e){}</script>
+<!-- partial:index.partial.html -->
+<div class="container-fluid main">
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button>
+        <a class="navbar-brand" href="#">Website</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="#"><i class="fas fa-map-marked"></i>  Add your location </a></li>
+          <li><a href="#"><i class="fas fa-globe-asia"></i>  Map</a></li>
+          <li><a href="#"><i class="fas fa-user-circle"></i>  Account</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="myCarousel" class="carousel carousel-fade " >
+    <div class="carousel-inner" role="listbox">
+      <div class="item active background a"></div>
+      <!-- <div class="item background b"></div>
+      <div class="item background c"></div>
+      <div class="item background d"></div>
+      <div class="item background e"></div> -->
+    </div>
+  </div>
+  
+  <div class="covertext">
+    <div class="col-lg-10" style="float:none; margin:0 auto;">
+      <h1 class="title animate__animated animate__backInDown" >For the untourists. Travel liberated </h1>
+      <h3 class="subtitle animate__animated animate__backInUp">Vietnam is a place that brings new things to everyone </h3>
+    </div>
+    <!-- <div class="col-xs-12 explore">
+      <a href="#"><button type="button" class="btn btn-lg explorebtn">EXPLORE</button></a>
+    </div> -->
+    <select class="top-nav-search-selection explore">
+      <option value="DaNang">Da Nang</option>
+      <option value="HaNoi">Ha Noi</option>
+      <option value="HCM">Tp Ho Chi Minh</option>
+      
+    </select>
+  </div>
+  
+</div>
+<section class="grid">
+<div class="row">
+  <div class="col l-3 m-4 c-2 cl" >
+    <div class="container">
+  <nav>
+      <ul class="mcd-menu">
+        <li>
+          <a href="#" class="active">
+            <i class="fa fa-home"></i>
+            <strong>Home</strong>
+            <small>Da Nang</small>
+          </a>
+        </li>
+       
+        <li>
+          <a href="#">
+            <i class="far fa-newspaper"></i>
+            <strong>News</strong>
+            <small>New Information</small>
+          </a>
+        </li>
+      
+        
+        <li>
+          <a href="#">
+            <i class="fa fa-picture-o"></i>
+            <strong>Tourist  
+            </strong>
+            <small>famous tourist destination</small>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-utensils"></i>
+            <strong>Restaurant</strong>
+            <small>cozy meal </small>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-hotel"></i>
+            <strong>harbourage</strong>
+            <small>sweet home</small>
+            <br>
+          </a>
+   
+        </li>
+        <li>
+          <a href="#" > 
+            <i class="fas fa-umbrella-beach"></i>
+            <strong>Beach</strong>
+            <small>Clean beach </small>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    </div>
+  </div>
+  <div class="col l-9 m-8 c-10 cl"> 
+    <h2 data-aos="zoom-in" class="title">News</h2>
+    <div class="row">
+      <div class="owl-carousel slideNew">
+      <div class="col">
+        <a class="card" href="#">
+          <video muted="muted"  class="card-header" loop onmouseover="this.play();" onmouseout="this.pause();" src="LinkNetwork/Danang, Vietnam Trip 2019 - 4K Sony a6300.webm"></video> 
+        <span class="card-summary">
+          A summary will also be present. Usually two to three brief sentences about the content on the detail page.
+        </span>
+        <span class="card-meta">
+          Published: June 18th, 2015
+        </span>
+      </a>
+    </div>
+      <div class="col">  
+        <a class="card" href="#">
+      <!--           <iframe width="560" height="315" src="https://www.youtube.com/embed/2AhnXuWZNUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  -->
+        <video muted="muted"  class="card-header" loop onmouseover="this.play();" onmouseout="this.pause();" src="LinkNetwork/Danang, Vietnam Trip 2019 - 4K Sony a6300.webm"></video>
+     
+      <span class="card-summary">
+        A summary will also be present. Usually two to three brief sentences about the content on the detail page.
+      </span>
+      <span class="card-meta">
+        Published: June 18th, 2015
+      </span>
+      </a>
+  </div>
+      <div class="col">  
+        <a class="card" href="#">
+        <video muted="muted"  class="card-header" loop onmouseover="this.play();" onmouseout="this.pause();" src="LinkNetwork/Danang, Vietnam Trip 2019 - 4K Sony a6300.webm"></video>
+      
+      <span class="card-summary">
+        A summary will also be present. Usually two to three brief sentences about the content on the detail page.
+      </span>
+      <span class="card-meta">
+        Published: June 18th, 2015
+      </span>
+    </a></div>
+    <div class="col">
+      <a class="card" href="#">
+        <video muted="muted"  class="card-header" loop onmouseover="this.play();" onmouseout="this.pause();" src="LinkNetwork/Danang, Vietnam Trip 2019 - 4K Sony a6300.webm"></video> 
+      <span class="card-summary">
+        A summary will also be present. Usually two to three brief sentences about the content on the detail page.
+      </span>
+      <span class="card-meta">
+        Published: June 18th, 2015
+      </span>
+    </a>
+  </div>
+    <div class="col">  
+      <a class="card" href="#">
+<!--           <iframe width="560" height="315" src="https://www.youtube.com/embed/2AhnXuWZNUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  -->
+      <video muted="muted"  class="card-header" loop onmouseover="this.play();" onmouseout="this.pause();" src="LinkNetwork/Danang, Vietnam Trip 2019 - 4K Sony a6300.webm"></video>
+   
+    <span class="card-summary">
+      A summary will also be present. Usually two to three brief sentences about the content on the detail page.
+    </span>
+    <span class="card-meta">
+      Published: June 18th, 2015
+    </span>
+    </a>
+</div>
+    <div class="col">  
+      <a class="card" href="#">
+      <video muted="muted"  class="card-header" loop onmouseover="this.play();" onmouseout="this.pause();" src="LinkNetwork/Danang, Vietnam Trip 2019 - 4K Sony a6300.webm"></video>
+    
+    <span class="card-summary">
+      A summary will also be present. Usually two to three brief sentences about the content on the detail page.
+    </span>
+    <span class="card-meta">
+      Published: June 18th, 2015
+    </span>
+  </a></div>
+    </div> 
+  </div>
+  </div>
+
+</div>
+  
+</section>
+<section  class="grid Row2" >
+  <div class="row ">
+    <div class="col l-3 m-4 c-2 cl " >
+      <h2 data-aos="zoom-in" class="title">Weather</h2>
+      <div class="container ">
+      <nav>
+          <ul class="mcd-menu" id="showWeatherForcast">
+            <li >
+              <a href="#" class="active">
+                <i class="fa fa-home"></i>
+                <strong>Home</strong>
+                <small>Da Nang</small>
+              </a>
+            </li>
+           
+            <li>
+              <a href="#">
+                <i class="far fa-newspaper"></i>
+                <strong>News</strong>
+                <small>New Information</small>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-picture-o"></i>
+                <strong>Tourist  
+                </strong>
+                <small>famous tourist destination</small>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-utensils"></i>
+                <strong>Restaurant</strong>
+                <small>cozy meal </small>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-hotel"></i>
+                <strong>harbourage</strong>
+                <small>sweet home</small>
+                <br>
+              </a>
+            </li>
+          
+          </ul>
+        </nav>
+      </div>
+
+    </div>
+    <div class="col l-9 m-8 c-10 cl">
+      <h2 data-aos="zoom-in" class="title">Play Around</h2>
+    <div class="row "> 
+      <div class="owl-carousel slideNew ">
+      <div class="col playAr">
+  <div class="post-module">
+  <!-- Thumbnail-->
+  <div class="thumbnail">
+    <div class="date">
+      <div class="day">27</div>
+      <div class="month">Mar</div>
+    </div><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg"/>
+  </div>
+  <!-- Post Content-->
+
+  <div class="post-content">
+    <div class="category">Photos</div>
+    <h1 class="title">City Lights in New York</h1>
+    <h2 class="sub_title">The city that never sleeps.</h2>
+    <p class="description">New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
+    <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span></div>
+  </div>
+</div>
+      </div>
+<div class="col playAr">
+  <div class="post-module">
+  <!-- Thumbnail-->
+  <div class="thumbnail">
+    <div class="date">
+      <div class="day">27</div>
+      <div class="month">Mar</div>
+    </div><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg"/>
+  </div>
+  <!-- Post Content-->
+
+  <div class="post-content">
+    <div class="category">Photos</div>
+    <h1 class="title">City Lights in New York</h1>
+    <h2 class="sub_title">The city that never sleeps.</h2>
+    <p class="description">New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
+    <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span></div>
+  </div>
+</div>
+</div>
+<div class="col playAr">
+  <div class="post-module">
+  <!-- Thumbnail-->
+  <div class="thumbnail">
+    <div class="date">
+      <div class="day">27</div>
+      <div class="month">Mar</div>
+    </div><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg"/>
+  </div>
+  <!-- Post Content-->
+
+  <div class="post-content">
+    <div class="category">Photos</div>
+    <h1 class="title">City Lights in New York</h1>
+    <h2 class="sub_title">The city that never sleeps.</h2>
+    <p class="description">New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
+    <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span></div>
+  </div>
+</div>
+</div>
+<div class="col playAr">
+  <div class="post-module">
+  <!-- Thumbnail-->
+  <div class="thumbnail">
+    <div class="date">
+      <div class="day">27</div>
+      <div class="month">Mar</div>
+    </div><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg"/>
+  </div>
+  <!-- Post Content-->
+
+  <div class="post-content">
+    <div class="category">Photos</div>
+    <h1 class="title">City Lights in New York</h1>
+    <h2 class="sub_title">The city that never sleeps.</h2>
+    <p class="description">New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
+    <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span></div>
+  </div>
+</div>
+      </div>
+<div class="col playAr">
+  <div class="post-module">
+  <!-- Thumbnail-->
+  <div class="thumbnail">
+    <div class="date">
+      <div class="day">27</div>
+      <div class="month">Mar</div>
+    </div><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg"/>
+  </div>
+  <!-- Post Content-->
+
+  <div class="post-content">
+    <div class="category">Photos</div>
+    <h1 class="title">City Lights in New York</h1>
+    <h2 class="sub_title">The city that never sleeps.</h2>
+    <p class="description">New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
+    <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span></div>
+  </div>
+</div>
+</div>
+<div class="col playAr">
+  <div class="post-module">
+  <!-- Thumbnail-->
+  <div class="thumbnail">
+    <div class="date">
+      <div class="day">27</div>
+      <div class="month">Mar</div>
+    </div><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg"/>
+  </div>
+  <!-- Post Content-->
+
+  <div class="post-content">
+    <div class="category">Photos</div>
+    <h1 class="title">City Lights in New York</h1>
+    <h2 class="sub_title">The city that never sleeps.</h2>
+    <p class="description">New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
+    <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span></div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</section>
+<section class="grid Wide Row3"></section>
+
+<!-- partial -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+<script>$(document).ready(function(){ $('.slideNew').owlCarousel({
+  loop:true,
+  autoplay:true,
+  autoplayTimeout:6000,
+  nav:true,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:2
+      },
+      1000:{
+          items:3
+      }
+  }
+})})</script>
+<script>
+  AOS.init({
+    offset: 100,
+    duration: 2000,
+  });
+</script>
+<script type="text/javascript"> 
+
+window.addEventListener("scroll",function(){
+  var nav = document.querySelector("nav");
+  nav.classList.toggle("sticky",window.scrollY>0);
+})
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="./LinkNetwork/owlcarousel/owl.carousel.min.js"></script>
+<script src='https://codepen.io/andytran/pen/vLmRVp.js'></script>
+</body>
+</html>
